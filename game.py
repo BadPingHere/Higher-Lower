@@ -4,7 +4,6 @@ print('Welcome to a Higher or Lower game! You will choose a number between 1 and
 n = random.randint(1,100)
 tries = '0'
 number = str(n)
-print(number)
 print('The number has been chosen.')
 
 def makechoice():
