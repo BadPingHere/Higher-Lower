@@ -1,9 +1,8 @@
 import random
 
 print('Welcome to a Higher or Lower game! You will choose a number between 1 and 100, and the script will tell you if its higher, lower, or correct!')
-n = random.randint(1,100)
 tries = '0'
-number = str(n)
+number = str(random.randint(1,100))
 print('The number has been chosen.')
 
 def makechoice():
